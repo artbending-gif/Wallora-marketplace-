@@ -1,23 +1,29 @@
-# Secrets — never upload database passwords or recovery keys
-.env
-.env.*
-!.env.example
-
-# Dependencies and generated build output
+# Dependencies
 node_modules/
+
+# Next.js and Netlify output
 .next/
 out/
-build/
-dist/
-*.tsbuildinfo
+.netlify/
 
-# OS/editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# Local environment variables and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
 
-# Local backups and temporary source export
-*.sql
-*.dump
+# Private sellable files must never be committed or deployed publicly
+private-products/*
+!private-products/README.md
+
+# Temporary source-export downloads served by the preview
 public/downloads/
+
+# Logs and local tooling
+*.log
+.DS_Store
+.vercel/
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
