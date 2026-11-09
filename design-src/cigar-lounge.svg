@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f6f0e3"/>
+
+  <g stroke="#1f1f1f" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ===== profile facing right ===== -->
+    <path d="M372 300 C424 300 456 336 460 376 C461 392 467 400 478 411 C499 429 515 447 506 458 C500 466 483 468 472 465 C469 476 474 481 472 489 C487 497 494 509 486 519 C499 526 505 539 496 550 C485 563 471 569 461 578 C474 594 466 617 446 625"/>
+    <path d="M460 376 C474 390 484 404 478 411" stroke-width="4"/>
+    <path d="M402 398 C416 390 431 393 436 403" stroke-width="4"/>
+    <path d="M396 374 C414 365 433 369 442 380" stroke-width="4"/>
+    <!-- hair -->
+    <path d="M372 300 C318 310 286 352 280 406 C274 458 285 502 300 540" stroke-width="6"/>
+    <path d="M304 372 C324 330 356 302 400 302" stroke-width="4"/>
+    <path d="M322 344 C344 312 372 294 412 296" stroke-width="4"/>
+    <!-- neck + shoulders -->
+    <path d="M446 625 C442 678 436 726 442 776"/>
+    <path d="M300 540 C290 612 288 694 306 776"/>
+    <path d="M306 776 C250 806 204 830 166 862"/>
+    <path d="M442 776 C494 800 542 814 590 824"/>
+
+    <!-- ===== hand with cigar ===== -->
+    <!-- back of hand / wrist -->
+    <path d="M930 1000 C890 950 852 906 812 866 C790 844 762 828 736 820"/>
+    <!-- index finger holding cigar -->
+    <path d="M736 820 C716 792 700 764 690 736 C686 724 690 716 700 716 C712 716 720 726 726 740 C736 762 748 782 762 798"/>
+    <!-- thumb -->
+    <path d="M812 866 C788 848 766 838 744 836 C726 834 716 844 720 856 C724 868 738 876 756 876"/>
+    <!-- cigar -->
+    <path d="M668 726 C740 700 812 674 884 648" stroke-width="18"/>
+    <path d="M846 662 C862 656 876 651 890 646" stroke-width="9"/>
+    <path d="M726 706 C732 703 738 701 744 699" stroke-width="4"/>
+    <!-- lit tip glow + ash -->
+    <path d="M884 648 C896 644 906 646 912 652" stroke-width="5"/>
+
+    <!-- ===== smoke ===== -->
+    <path d="M912 634 C944 600 950 562 926 534 C906 510 914 482 942 466" stroke-width="5"/>
+    <path d="M938 668 C982 630 992 586 962 552 C940 528 950 496 988 476" stroke-width="4"/>
+    <path d="M890 606 C914 578 916 552 898 532" stroke-width="3.5"/>
+  </g>
+
+  <!-- ===== wordmark ===== -->
+  <g fill="#1f1f1f" text-anchor="middle">
+    <text x="600" y="1128" font-family="DejaVu Serif, Georgia, 'Times New Roman', serif" font-size="204" letter-spacing="2">Cigar</text>
+    <path d="M322 1205 L470 1205 M730 1205 L878 1205" stroke="#1f1f1f" stroke-width="6" stroke-linecap="round"/>
+    <text x="600" y="1220" textLength="238" lengthAdjust="spacing" font-family="DejaVu Serif, Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="12">LOUNGE</text>
+  </g>
+</svg>

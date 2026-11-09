@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f8f3ea"/>
+
+  <!-- ================= big head facing right ================= -->
+  <g stroke="#1a1a1a" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M262 540 C282 400 392 320 500 342 C596 362 640 442 644 526
+             C646 560 656 584 678 606
+             C716 646 740 686 718 706 C702 720 666 720 648 710
+             C646 726 658 734 650 748
+             C680 762 690 790 668 806
+             C692 824 696 852 674 870
+             C696 898 680 936 640 946
+             C618 986 606 1030 610 1078"/>
+    <path d="M262 540 C250 660 258 790 274 906" stroke-width="6"/>
+    <path d="M300 428 C352 350 434 320 512 330" stroke-width="5"/>
+    <path d="M278 500 C300 400 366 340 458 326" stroke-width="5"/>
+    <path d="M286 588 C262 566 240 588 250 616 C258 640 282 650 300 640" stroke-width="5"/>
+    <path d="M560 470 C588 456 616 462 630 480" stroke-width="5"/>
+  </g>
+
+  <!-- SAVE ME lettering -->
+  <g fill="#1467d8" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-weight="bold">
+    <text x="336" y="640" font-size="104">SAVE</text>
+    <text x="382" y="756" font-size="104">ME!</text>
+  </g>
+
+  <!-- ================= speech bubble ================= -->
+  <g>
+    <path d="M690 470 C690 356 800 306 926 322 C1050 338 1128 402 1126 486
+             C1124 572 1022 626 902 618 L826 700 L848 604
+             C748 586 690 536 690 470 Z"
+          fill="#f8f3ea" stroke="#1a1a1a" stroke-width="6"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="918" y="492" text-anchor="middle" fill="#1467d8"
+          font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-weight="bold"
+          font-size="52" textLength="300" lengthAdjust="spacingAndGlyphs">.PDF or .PNG?</text>
+  </g>
+
+  <!-- ================= small head facing left ================= -->
+  <g stroke="#1a1a1a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M984 962 C978 872 916 826 842 834 C778 842 742 892 736 950
+             C734 970 726 982 714 992
+             C696 1012 686 1030 698 1040 C708 1048 724 1046 734 1040
+             C738 1052 730 1060 734 1070
+             C718 1080 714 1096 726 1106
+             C714 1118 716 1136 732 1144
+             C748 1160 762 1172 780 1178
+             C798 1202 806 1232 804 1266"/>
+    <path d="M984 962 C994 1032 996 1106 992 1178 C990 1242 988 1282 986 1312"/>
+    <path d="M980 1000 C988 946 960 896 904 872" stroke-width="4"/>
+    <path d="M1010 964 C1044 946 1076 966 1070 1000 C1064 1030 1036 1040 1014 1028" stroke-width="5"/>
+    <path d="M750 966 C768 956 788 958 800 970" stroke-width="4"/>
+    <path d="M972 1066 C990 1092 990 1124 972 1144" stroke-width="4"/>
+  </g>
+</svg>

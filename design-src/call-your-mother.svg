@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#e9dfcc"/>
+
+  <g transform="translate(600,900) scale(1.12) translate(-600,-900)" stroke="#1b1b1b" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ===== head: tall, flat-topped, long jaw ===== -->
+    <path d="M556 476 C600 468 640 492 648 534
+             C654 566 656 600 654 636
+             C652 676 648 714 640 750
+             C632 786 620 818 604 838
+             C595 850 583 852 574 844
+             C556 828 546 796 542 760
+             C537 716 536 668 540 622
+             C544 574 548 520 556 476 Z"/>
+    <!-- hair swoop -->
+    <path d="M552 480 C596 462 644 490 650 536" stroke-width="11"/>
+    <path d="M566 474 C604 462 636 486 646 516" stroke-width="4"/>
+    <!-- ear -->
+    <path d="M654 588 C678 578 692 600 686 620 C680 638 662 642 652 632" stroke-width="5"/>
+    <!-- glasses -->
+    <circle cx="575" cy="612" r="24"/>
+    <circle cx="624" cy="606" r="24"/>
+    <path d="M598 610 L601 609" stroke-width="5"/>
+    <path d="M551 614 L544 614" stroke-width="5"/>
+    <!-- brow + nose -->
+    <path d="M558 578 C570 572 582 574 590 580" stroke-width="4"/>
+    <path d="M553 624 C546 642 546 654 553 662" stroke-width="5"/>
+    <!-- mustache + grin -->
+    <path d="M548 686 C572 674 598 680 606 692 C614 680 640 674 662 686" stroke-width="8"/>
+    <path d="M570 716 C582 722 596 722 608 716" stroke-width="4"/>
+    <!-- chin accent -->
+    <path d="M552 762 C562 792 574 818 588 836" stroke-width="4"/>
+
+    <!-- ===== neck + collar + tie ===== -->
+    <path d="M594 848 C596 866 597 878 597 890"/>
+    <path d="M556 900 C572 918 584 928 597 934"/>
+    <path d="M642 900 C626 918 612 928 597 934"/>
+    <path d="M597 934 L615 962 L606 1014 L597 1032 L588 1014 L579 962 Z" stroke-width="5"/>
+
+    <!-- ===== shoulders + body ===== -->
+    <path d="M556 902 C518 928 492 962 472 1004"/>
+    <path d="M642 902 C680 928 706 962 726 1004"/>
+    <path d="M556 900 C544 964 542 1034 546 1104"/>
+    <path d="M642 900 C654 964 656 1034 652 1104"/>
+    <path d="M546 1104 C544 1140 546 1166 550 1194" stroke-width="5"/>
+    <path d="M652 1104 C654 1140 652 1166 648 1194" stroke-width="5"/>
+
+    <!-- ===== arms akimbo ===== -->
+    <path d="M472 1004 C430 1042 420 1096 456 1132"/>
+    <path d="M726 1004 C768 1042 778 1096 742 1132"/>
+    <path d="M456 1132 C492 1150 530 1136 556 1108"/>
+    <path d="M742 1132 C706 1150 668 1136 642 1108"/>
+    <!-- hands -->
+    <path d="M556 1108 C546 1088 552 1068 566 1060" stroke-width="4"/>
+    <path d="M642 1108 C652 1088 646 1068 632 1060" stroke-width="4"/>
+  </g>
+
+  <!-- dash + caption -->
+  <path d="M578 1384 L622 1384" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(600 1482)">
+    <text x="0" y="0" text-anchor="middle" fill="#1b1b1b"
+          transform="skewX(-8)"
+          font-family="DejaVu Serif, Georgia, serif" font-weight="bold"
+          font-size="58">Call your mother!</text>
+  </g>
+</svg>

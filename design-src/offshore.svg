@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f7eed7"/>
+
+  <!-- ================= hand-lettered OFFSHORE ================= -->
+  <g fill="#2c4a6e" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-weight="bold">
+    <text transform="translate(148 536) rotate(-8)" font-size="244">O</text>
+    <text transform="translate(300 512) rotate(-5)" font-size="206">F</text>
+    <text transform="translate(404 506) rotate(-4)" font-size="210">F</text>
+    <text transform="translate(508 500) rotate(-3)" font-size="220">S</text>
+    <text transform="translate(620 496) rotate(-1)" font-size="214">H</text>
+    <text transform="translate(744 492) rotate(1)" font-size="202">O</text>
+    <text transform="translate(846 486) rotate(3)" font-size="218">R</text>
+    <text transform="translate(962 482) rotate(5)" font-size="210">E</text>
+  </g>
+
+  <!-- ================= canoe ================= -->
+  <g stroke="#2c4a6e" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 1064 C300 1008 416 958 552 922 C688 886 812 864 892 864
+             C936 864 952 884 930 908 C878 966 786 1020 682 1058
+             C578 1096 452 1116 362 1106 C300 1098 252 1084 236 1064 Z"/>
+    <path d="M330 1052 C438 1014 556 980 664 950" stroke-width="6"/>
+  </g>
+
+  <!-- paddle 1: shaft from upper-right to lower-left -->
+  <g transform="rotate(26 600 1000)" stroke="#2c4a6e" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M232 1000 L968 1000"/>
+    <ellipse cx="196" cy="1000" rx="66" ry="30"/>
+    <ellipse cx="1004" cy="1000" rx="66" ry="30"/>
+    <path d="M232 1000 L268 1000" stroke-width="10"/>
+  </g>
+  <!-- paddle 2: shaft from upper-left to lower-right -->
+  <g transform="rotate(-24 600 1010)" stroke="#2c4a6e" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M252 1010 L948 1010"/>
+    <ellipse cx="216" cy="1010" rx="62" ry="28"/>
+    <ellipse cx="984" cy="1010" rx="62" ry="28"/>
+  </g>
+
+  <!-- ================= water ================= -->
+  <g stroke="#2c4a6e" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M282 1228 C324 1216 358 1222 388 1234 C418 1246 452 1248 492 1236"/>
+    <path d="M516 1262 C554 1252 588 1256 616 1268 C644 1280 674 1282 708 1270"/>
+    <path d="M228 1286 C268 1274 302 1278 330 1290 C358 1302 390 1304 424 1292"/>
+  </g>
+
+  <!-- ================= open water ================= -->
+  <text x="600" y="1440" text-anchor="middle" fill="#2c4a6e"
+        font-family="DejaVu Sans, Arial, sans-serif" font-size="70" letter-spacing="15">open water</text>
+</svg>
