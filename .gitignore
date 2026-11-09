@@ -1,0 +1,23 @@
+# Secrets — never upload database passwords or recovery keys
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated build output
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local backups and temporary source export
+*.sql
+*.dump
+public/downloads/
